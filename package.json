@@ -1,0 +1,14 @@
+{
+  "name": "recurrex-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Recurrex",
+  "scripts": {
+    "dev": "npx serve .",
+    "start": "npx serve .",
+    "build": "echo 'Static HTML, no build needed'"
+  },
+  "dependencies": {
+    "serve": "^14.0.0"
+  }
+}
+
