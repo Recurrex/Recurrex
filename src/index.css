@@ -1,1 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  background-color: #020617; /* Deep Slate 950 */
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Professional Custom Scrollbar */
+::-webkit-scrollbar { 
+  width: 8px; 
+}
+::-webkit-scrollbar-track { 
+  background: #020617; 
+}
+::-webkit-scrollbar-thumb { 
+  background: #06b6d4; /* Cyan 500 */
+  border-radius: 10px; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0891b2; /* Cyan 600 */
+}
 
